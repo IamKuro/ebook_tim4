@@ -21,5 +21,11 @@ Route::get('testing', function () {
     return view('addcart');
 });
 
+Route::get('testing', function () {
+    return view('login');
+});
 
+Route::get('/daftar', function () {
+    return view('register');
+});
 
