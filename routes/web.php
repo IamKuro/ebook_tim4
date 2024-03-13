@@ -29,3 +29,4 @@ Route::get('/daftar', function () {
     return view('register');
 });
 
+Route::get('profile', [ProfileController::class, 'index']);
